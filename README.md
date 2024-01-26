@@ -1,6 +1,11 @@
 # Financial-Insights-from-Bank-Statement
 
 **1. INTRODUCTION**
+
+
+
+
+
 This is a financial analysis project. The objective of the project is to gain valuable insights from a personal 6 months bank statement, starting from June the 15th, 2023 to January the 15th, 2024.
 The project involves transaction categorization, expense tracking, and visualization of financial trends.
 
@@ -187,7 +192,11 @@ These two issues will be addressed later.
 
 
 
+
+
 - Check the new values added to the table
+
+
 
 
 
@@ -240,6 +249,10 @@ These two issues will be addressed later.
 
 
 
+
+
+
+
 - Verifying the new table
 
 
@@ -247,6 +260,11 @@ These two issues will be addressed later.
 
 
 <img width="766" alt="Financial Insights Project - Bank Statement Check" src="https://github.com/PacificNt/Financial-Insights-from-Bank-Statement/assets/112112663/0d6c800c-4ffb-4af1-ba6a-7f71adcb18c6">
+
+
+
+
+
 
 
 
@@ -268,7 +286,20 @@ These two issues will be addressed later.
 
 
 
-8. Expense and Income Tracking
+
+
+
+From the result, we can see that there is no duplicates in the 'BankStatement' table
+
+
+
+
+
+
+
+
+
+**EXPENSE AND INCOME TRACKING - DATA EXPLORATION**
 
 
 
@@ -279,7 +310,7 @@ These two issues will be addressed later.
 
 
 
--I. Contribution Percentage for Credit Categories
+- 1. Contribution Percentage for Credit Categories.
 
 
 
@@ -299,7 +330,7 @@ These two issues will be addressed later.
 
 
 
-- 'Other'
+- 'Other'.
 
 
 
@@ -320,7 +351,7 @@ Looking at what 'Other' in the credit transactions represent, we can see that th
 
 
 
--II. Highest Cash Deposit made.
+- 2. Highest Cash Deposit made.
 
 
 
@@ -341,7 +372,7 @@ Looking at what 'Other' in the credit transactions represent, we can see that th
 
 
 
-- III. Contribution Percentage for debit categories
+- 3. Contribution Percentage for debit categories.
 
 
 
@@ -364,7 +395,7 @@ Looking at what 'Other' in the credit transactions represent, we can see that th
 
 
 
--IV. Contribution percentage of Subcategories in 'Purchases & Payements'
+- 4. Contribution percentage of Subcategories in 'Purchases & Payements'.
 
 
 
@@ -372,6 +403,11 @@ Looking at what 'Other' in the credit transactions represent, we can see that th
 
 
 <img width="767" alt="Financial Insights Project - Contribution percentage of Subcategories under 'Purchases   Payments'" src="https://github.com/PacificNt/Financial-Insights-from-Bank-Statement/assets/112112663/edd97eec-162c-44c8-a1e6-e2eaaa24a50f">
+
+
+
+
+
 
 
 
@@ -399,6 +435,9 @@ The result shows that the biggest contribustion(around 32% of total) in this cat
 
 
 
+
+
+
 The result shows that under the 'Other' SubCategory are mainly miscellaneous payments that didn't fit the main conditions set 'SubCategories', Ticket purchases and other purchases made at some unidentified shops(Point Of Sales).
 
 
@@ -407,7 +446,9 @@ The result shows that under the 'Other' SubCategory are mainly miscellaneous pay
 
 
 
-- V.  Monthly spending on 'Purchases & Payments'
+
+
+- 5.  Monthly spending on 'Purchases & Payments'.
 
 
 
@@ -424,6 +465,9 @@ The result shows that under the 'Other' SubCategory are mainly miscellaneous pay
 
 
 
+
+
+
 **Insights** : From the results we can see that the month of October was the month with the highest spending on 'Purchases & Payments' with R1276.30
 
 
@@ -431,7 +475,11 @@ The result shows that under the 'Other' SubCategory are mainly miscellaneous pay
 
 
 
-- VI. Monthly spending on 'Airtime'
+- 6. Monthly spending on 'Airtime'.
+ 
+
+
+  
 
 
 
@@ -439,6 +487,10 @@ The result shows that under the 'Other' SubCategory are mainly miscellaneous pay
 
 
 <img width="767" alt="Financial Insights Project - Total Spending on Airtime per month" src="https://github.com/PacificNt/Financial-Insights-from-Bank-Statement/assets/112112663/2866618d-5514-4db8-b00c-d390161c6683">
+
+
+
+
 
 
 
@@ -453,7 +505,7 @@ The result shows that under the 'Other' SubCategory are mainly miscellaneous pay
 
 
 
-- VII. Monthly Spending on 'Groceries & Toiletries'
+- 7. Monthly Spending on 'Groceries & Toiletries'.
 
 
 
@@ -461,6 +513,10 @@ The result shows that under the 'Other' SubCategory are mainly miscellaneous pay
 
 
 <img width="767" alt="Financial Insights Project - Total Spending on Groceries per month" src="https://github.com/PacificNt/Financial-Insights-from-Bank-Statement/assets/112112663/c19c9186-536e-484e-88a0-cd303b4b7cf9">
+
+
+
+
 
 
 
@@ -477,7 +533,9 @@ The result shows that under the 'Other' SubCategory are mainly miscellaneous pay
 
 
 
--VIII. Highest and lowest amount withdrawn
+- 8. Highest and lowest amount withdrawn.
+
+
 
 
 
@@ -493,7 +551,11 @@ The result shows that under the 'Other' SubCategory are mainly miscellaneous pay
 
 
 
--IX. Total Banking fees per month
+
+
+
+
+- 9. Total Banking fees per month.
 
 
 
@@ -502,6 +564,8 @@ The result shows that under the 'Other' SubCategory are mainly miscellaneous pay
 
 
 <img width="766" alt="Financial Insights Project - Total Banking Fees per month" src="https://github.com/PacificNt/Financial-Insights-from-Bank-Statement/assets/112112663/a8ecb2ad-6b90-4823-9fed-3e8cafd3df41">
+
+
 
 
 
@@ -518,7 +582,7 @@ The result shows that under the 'Other' SubCategory are mainly miscellaneous pay
 
 
 
-- Details on Banking fees of the month of June
+- Details on Banking fees of the month of June.
 
 
 
