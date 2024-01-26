@@ -213,8 +213,6 @@ These two issues will be addressed later.
 
 
 
-
-
 6. Create a new Table(BankStatement) that will contain only the needed columns
 
 
