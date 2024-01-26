@@ -3,7 +3,12 @@
 **1. INTRODUCTION**
 This is a financial analysis project. The objective of the project is to gain valuable insights from a personal 6 months bank statement, starting from June the 15th, 2023 to January the 15th, 2024.
 The project involves transaction categorization, expense tracking, and visualization of financial trends.
+
+
+
 Tools :
+
+
 **- Microsoft Excel** : Microsoft Excel was used to import the raw bank statement data(pdf), perform preliminar data cleaning and preparation using Power Query in the process.
 
 
@@ -257,6 +262,313 @@ These two issues will be addressed later.
 
 
 <img width="766" alt="Financial Insights Project - Duplicates Check" src="https://github.com/PacificNt/Financial-Insights-from-Bank-Statement/assets/112112663/4e25d3f0-afd3-49ff-ad72-25631fb35707">
+
+
+
+
+
+
+8. Expense and Income Tracking
+
+
+
+
+**Note** : These are just some of the queries used in the project, to see all the project please check the '*Financial Insights*' file.
+
+
+
+
+
+-I. Contribution Percentage for Credit Categories
+
+
+
+
+
+
+<img width="766" alt="Financial Insights Project - Contribution Percentage -Credit" src="https://github.com/PacificNt/Financial-Insights-from-Bank-Statement/assets/112112663/d4aab0c4-5417-4f4d-9dc3-31b4663927e3">
+
+
+
+
+
+
+**Insights** : The credit transactions represent the incoming money in the Bank account and their source. In our case, the sources were identified as ATM Cash Deposit, Transfer from Savings(Savings Account) and other. The results shows that +/- 83%(or R30100) of incoming money in the account from June 2023(the 15th) to January 2024(the 15th) came from ATM Cash Deposit, while only 5%(R1884) came from the savings account. The remaining contribution(~11% or R4148.44) is classified as other.  But since it represent a good 11% of the total contribution, it is also important to have a closer look at it and find out, what it represents.
+
+
+
+
+
+- 'Other'
+
+
+
+
+
+<img width="766" alt="Financial Insights Project - Credit Transactions - Other" src="https://github.com/PacificNt/Financial-Insights-from-Bank-Statement/assets/112112663/3325963c-c064-4928-ba43-80326be00629">
+
+
+
+
+
+
+
+Looking at what 'Other' in the credit transactions represent, we can see that this category contains transactions such as payment/transfer received from other Bank accounts as well as an Inward Swift which represent a money transfer from a foreign bank account.
+
+
+
+
+
+
+-II. Highest Cash Deposit made.
+
+
+
+
+
+
+<img width="766" alt="Financial Insights Project - Highest Deposit" src="https://github.com/PacificNt/Financial-Insights-from-Bank-Statement/assets/112112663/0737efe6-ab57-4064-8df2-5b81a24dafc4">
+
+
+
+
+
+
+**Insights** : The result shows that the highest Cash deposited on the account is R7100 and it was deposited on the 20th of November 2023 and as per the description it is referred to as 'Laptop Money'
+
+
+
+
+
+
+- III. Contribution Percentage for debit categories
+
+
+
+
+
+
+
+<img width="766" alt="Financial Insights Project - Contribution Percentage - Debit" src="https://github.com/PacificNt/Financial-Insights-from-Bank-Statement/assets/112112663/847728a6-b97e-4885-b2c8-2efb395d676b">
+
+
+
+
+
+
+
+**Insights** : The result shows that around 81%(or R28294.16) of the money that went out of the account in the period covered in this table(15 June 2023 to 15 January 2024) went to 'Purchases & Payments', 7%(or R2530.83) went into savings, around 6%(or R1940.00) went to E-Wallets, around 3%(or R1250.00) went to ATM Withdrawals and around 2%(R828.00) went to Banking fees. The remaining contribution(0.2%0=) is classified as 'Other'.
+
+
+
+
+
+
+-IV. Contribution percentage of Subcategories in 'Purchases & Payements'
+
+
+
+
+
+
+<img width="767" alt="Financial Insights Project - Contribution percentage of Subcategories under 'Purchases   Payments'" src="https://github.com/PacificNt/Financial-Insights-from-Bank-Statement/assets/112112663/edd97eec-162c-44c8-a1e6-e2eaaa24a50f">
+
+
+
+
+
+
+**Insights** : As seen in the previous case, the 'Purchases & Payments' Category accounts around 81% of all debit transactions so it is important to have a closer look at what data in contained in this category.
+The result shows that the biggest contribustion(around 32% of total) in this category is classified as 'Other'(We will have a closer look at it after). The second biggest contribution is 'Tuition Fees' which accounts around 31% of total contribution or R8860. The result shows that around R2062(or around 7%) was spent on 'Airtime' which is quite close to the amount spent on 'Groceries & Toiletries'(R2384.92 or around 8%). We can aslo hihlights 'Ride Services' wich accounts around 1% of total 'Purchase & Payments'. It is important to note here the the amount on 'Ride Services' doest not really reflect the reality as this reflects only rides that we paid with the Bank card; the rides paid in cash are not reflected here.
+
+
+
+
+
+
+- Overview of SubCategory 'Other' under Category 'Purchases & Payments'
+
+
+
+
+
+
+<img width="766" alt="Financial Insights Project - Overview of 'Other' in 'Purchases   Payments' category" src="https://github.com/PacificNt/Financial-Insights-from-Bank-Statement/assets/112112663/96124d02-2992-452d-a0ca-07ebe5a5cc3a">
+
+
+
+
+
+The result shows that under the 'Other' SubCategory are mainly miscellaneous payments that didn't fit the main conditions set 'SubCategories', Ticket purchases and other purchases made at some unidentified shops(Point Of Sales).
+
+
+
+
+
+
+
+- V.  Monthly spending on 'Purchases & Payments'
+
+
+
+
+
+
+
+<img width="766" alt="Financial Insights Project - Total Purchases Per Month" src="https://github.com/PacificNt/Financial-Insights-from-Bank-Statement/assets/112112663/435b14c0-ad34-40ad-ae6d-18b9491a3af8">
+
+
+
+
+
+
+
+
+**Insights** : From the results we can see that the month of October was the month with the highest spending on 'Purchases & Payments' with R1276.30
+
+
+
+
+
+
+- VI. Monthly spending on 'Airtime'
+
+
+
+
+
+
+<img width="767" alt="Financial Insights Project - Total Spending on Airtime per month" src="https://github.com/PacificNt/Financial-Insights-from-Bank-Statement/assets/112112663/2866618d-5514-4db8-b00c-d390161c6683">
+
+
+
+
+
+
+**Insights** : The shows that the month of November was the month with the highest spending on 'Airtime.
+
+
+
+
+
+
+
+- VII. Monthly Spending on 'Groceries & Toiletries'
+
+
+
+
+
+
+<img width="767" alt="Financial Insights Project - Total Spending on Groceries per month" src="https://github.com/PacificNt/Financial-Insights-from-Bank-Statement/assets/112112663/c19c9186-536e-484e-88a0-cd303b4b7cf9">
+
+
+
+
+
+
+**Insights** : The result shows the month of September was the month with the highest spendind on 'Groceries & Toiletries' with R728.45 while the month of July had the lowest amount spent on 'Groceries & Toiletries' with just R95.06
+
+
+
+
+
+
+
+
+
+-VIII. Highest and lowest amount withdrawn
+
+
+
+
+
+
+
+
+<img width="764" alt="Financial Insights Project - Max and Min Withdraw" src="https://github.com/PacificNt/Financial-Insights-from-Bank-Statement/assets/112112663/1adc127a-20ed-475e-a2f6-1d9e664617ca">
+
+
+
+
+
+
+-IX. Total Banking fees per month
+
+
+
+
+
+
+
+<img width="766" alt="Financial Insights Project - Total Banking Fees per month" src="https://github.com/PacificNt/Financial-Insights-from-Bank-Statement/assets/112112663/a8ecb2ad-6b90-4823-9fed-3e8cafd3df41">
+
+
+
+
+
+
+
+**Insights** : The result shows that June was the month with the highest 'Banking Fees'(R150). So let's have a closer look and see what were those fees about.
+
+
+
+
+
+
+
+
+- Details on Banking fees of the month of June
+
+
+
+
+
+
+<img width="766" alt="Financial Insights Project - Highest banking fee month details" src="https://github.com/PacificNt/Financial-Insights-from-Bank-Statement/assets/112112663/d1e9da6e-f95c-4285-946c-69ce6b71d224">
+
+
+
+
+
+From the results we can see that the fees were all on about the foreign exchange commission.
+
+
+
+
+
+
+
+
+
+
+
+
+**Note** : These are just some of the queries used in the project, to see all the project please check the '*Financial Insights*' file.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
