@@ -596,6 +596,45 @@ From the results we can see that the fees were all on about the foreign exchange
 
 
 
+- 10. Highest and Lowest Balance.
+
+
+
+
+
+
+
+  <img width="764" alt="Financial Insights Project - Highest Balance" src="https://github.com/PacificNt/Financial-Insights-from-Bank-Statement/assets/112112663/d50b03d9-0d55-424e-afc8-2576a3f15a58">
+
+
+
+
+
+
+
+
+
+<img width="767" alt="Financial Insights Project - Lowest Balance" src="https://github.com/PacificNt/Financial-Insights-from-Bank-Statement/assets/112112663/79756903-de53-4cf8-ad17-28eb16b60e7d">
+
+
+
+
+
+
+
+
+**Insights** :
+
+- The highest 'Balance' registered in the account was R14226.44 and that was registered on the 12th of December 2023.
+
+- The lowest 'Balance' was R0.45 and it was registered on the 27th of December 2023.
+  
+
+
+
+
+
+
 
 
 
