@@ -294,7 +294,7 @@ From the result, we can see that there is no duplicates in the 'BankStatement' t
 
 
 
-**EXPENSE AND INCOME TRACKING - DATA EXPLORATION**
+**3. EXPENSE AND INCOME TRACKING - DATA EXPLORATION**
 
 
 
