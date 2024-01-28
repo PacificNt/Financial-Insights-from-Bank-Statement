@@ -604,7 +604,10 @@ From the results we can see that the fees were all on about the foreign exchange
 
 
 
-  <img width="764" alt="Financial Insights Project - Highest Balance" src="https://github.com/PacificNt/Financial-Insights-from-Bank-Statement/assets/112112663/d50b03d9-0d55-424e-afc8-2576a3f15a58">
+
+
+
+<img width="764" alt="Financial Insights Project - Highest Balance" src="https://github.com/PacificNt/Financial-Insights-from-Bank-Statement/assets/112112663/d50b03d9-0d55-424e-afc8-2576a3f15a58">
 
 
 
